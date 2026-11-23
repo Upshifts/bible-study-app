@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Bible Study — Attend. Affirm. Matter.</title>
-<meta name="description" content="A Bible study app for Android: the King James Bible, word studies, reading plans, a sermon workshop, audio and Kingdom Games. Works offline.">
+<link rel="icon" href="favicon.ico" sizes="any"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="theme-color" content="#2A0866"><meta name="description" content="A Bible study app for Android: the King James Bible, word studies, reading plans, a sermon workshop, audio and Kingdom Games. Works offline.">
 <style>
-body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0D1424;color:#EEF1F6;font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:linear-gradient(180deg,#4A12A8,#1E0650);color:#EEF1F6;font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
 main{max-width:520px;padding:40px 24px;text-align:center}
-.dove{width:112px;height:112px;margin:0 auto 8px}
+main .btns{display:flex;flex-direction:column;align-items:center}
+.logo{display:block;width:240px;height:240px;margin:0 auto 10px;filter:drop-shadow(0 18px 36px rgba(0,0,0,.45))}
 h1{font:600 34px/1.1 Georgia,"Times New Roman",serif;margin:6px 0 14px;letter-spacing:.01em}
 .tags{display:flex;gap:8px;justify-content:center;margin-bottom:8px}
 .tags span{font:700 12px system-ui;letter-spacing:.12em;padding:5px 10px;border-radius:6px;color:#fff}
 .t1{background:#B8862B}.t2{background:#1F8A80}.t3{background:#C2415D}
 .motto{font:italic 18px Georgia,serif;color:#E7C77A;margin:0 0 26px}
-p{color:#B9C2D3;margin:0 0 26px}
+p{color:#D9CCF2;margin:0 0 26px}
 a.btn{display:inline-block;background:#E7C77A;color:#1B1405;font-weight:700;text-decoration:none;padding:14px 26px;border-radius:12px;font-size:17px}
+a.btn.alt{background:transparent;color:#F3E6C2;border:2px solid #E7C77A;margin-top:12px}
+a.btn{min-width:220px}
 a.btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
-small{display:block;margin-top:18px;color:#8C97AB;font-size:13.5px}
+small{display:block;margin-top:18px;color:#B9A8DE;font-size:13.5px}
 </style></head><body><main>
-<div class="dove" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="112" height="112">  <defs><linearGradient id="dw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DCE3EE"/></linearGradient></defs>  <!-- far wing -->  <path d="M27 31 C 25 20, 30 10, 41 5 C 39 12, 39 19, 35 27 Z" fill="#C9D3E2"/>  <!-- tail -->  <path d="M18 36 L 4 40 L 9 34 L 3 31 L 17 31 Z" fill="url(#dw)"/>  <!-- body -->  <path d="M16 33 C 22 28, 34 27, 44 29 C 48 26.5, 53 27, 55 30 L 59 31 L 55 32.5 C 54 37, 48 40, 41 40 C 33 41, 23 39, 16 33 Z" fill="url(#dw)"/>  <!-- near wing -->  <path d="M22 32 C 18 21, 20 10, 28 2 C 30 11, 33 16, 40 22 C 38 27, 33 31, 22 32 Z" fill="#FFFFFF"/>  <path d="M24 30 C 22 23, 23 16, 27 10 M28 30 C 27 24, 28 19, 31 14 M32 29 C 32 25, 33 22, 35 19" stroke="#C9D3E2" stroke-width="1" fill="none" stroke-linecap="round"/>  <!-- eye -->  <circle cx="51.5" cy="29.6" r="0.9" fill="#1A2238"/>  <!-- olive sprig in beak -->  <path d="M58.5 31.5 C 58 36, 56 40, 52 43" stroke="#6E9F4E" stroke-width="1.1" fill="none" stroke-linecap="round"/>  <path d="M57.6 35.5 C 61 35, 62.5 37, 62 39.5 C 59 39.5, 57.5 38, 57.6 35.5 Z" fill="#8CC06A"/>  <path d="M55.4 39.4 C 54 42.5, 51.5 43, 49.5 42 C 50.5 39.5, 53 38.5, 55.4 39.4 Z" fill="#7DB35C"/>  <path d="M56.8 37.8 C 58.5 40.5, 58 43, 56 44.5 C 54.6 42.5, 55 39.8, 56.8 37.8 Z" fill="#9CCB7A"/></svg></div>
+<img class="logo" src="logo-full-640.png" alt="Bible Study: Attend. Affirm. Matter." width="240" height="240">
 <h1>Bible Study</h1>
-<div class="tags"><span class="t1">ATTEND</span><span class="t2">AFFIRM</span><span class="t3">MATTER</span></div>
 <p class="motto">God will keep you in UPSHIFTS</p>
 <p>The King James Bible with word studies, reading plans, a sermon workshop, the audio Bible and Kingdom Games. It works without internet, and updates itself when you are online.</p>
 <a class="btn" href="https://github.com/Upshifts/bible-study-app/releases/latest/download/BibleStudy.apk">Download for Android</a>
-<small>Android 7 or newer. When your phone asks, allow installing from your browser, then open the downloaded file.</small>
+<a class="btn alt" href="https://github.com/Upshifts/bible-study-app/releases/latest/download/BibleStudy.exe">Download for Windows</a>
+<small>Android: version 7 or newer. When your phone asks, allow installing from your browser, then open the downloaded file.<br>Windows: Windows 10 or 11. If Windows shows “Windows protected your PC”, choose More info, then Run anyway.</small>
 </main></body></html>
